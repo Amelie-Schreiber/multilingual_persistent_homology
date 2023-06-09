@@ -12,7 +12,7 @@ Translation of Four Polysynthetic Languages](https://arxiv.org/pdf/2203.08954.pd
 
 1. The Wasserstein (a.k.a. the Kontorovich) distance metric is a more accurate comparison for barcode diagrams and clear trends can be found when using it, whereas the bottleneck distance at times does not seem to have any clear trends. 
 2. A more revealing and accurate comparison can be found when the collocations or multiword expressions are long and contain many words. This is because preserving the topology of a larger number of tokens is a more difficult task, and clear trends in the Wasserstiein distance between barcodes can be seen for larger collections of tokens making up key phrases, collocations, or multiword expressions. 
-3. Models with a larger vocabulary tend to preserve the topology more than models with smaller vocabularies. Again, this is because preserving the topology of more tokens is a more difficult task, so less "word splitting" makes the task easier. 
+3. Models with a larger vocabulary tend to preserve the topology more than models with smaller vocabularies. Again, this is probably because preserving the topology of more tokens is a more difficult task, so less "word splitting" makes the task easier. 
 4. It is unclear at present how context volume effects the persistent homology of collocations and multiword expressions, that is, when the contexts have significantly different lengths. 
 5. It may be important to compare different heads to one another as well. Is there a clear reason why particular heads should capture certain collocations in terms of the DBSCAN or persistent homology of context vectors and others wouldn't?
 
